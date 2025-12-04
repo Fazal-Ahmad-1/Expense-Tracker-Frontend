@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 
-const API_BASE_URL = "expensetrackerbackend-production-7e64.up.railway.app"; // update if needed
+const API_BASE_URL = "https://expensetrackerapplication-qt9a.onrender.com"; // update if needed
 
 function App() {
   const [username, setUsername] = useState("");
